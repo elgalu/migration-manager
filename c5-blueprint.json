@@ -1,0 +1,24 @@
+{
+    "EbsOptimized": false,
+    "NetworkInterfaces": [
+        {
+            "AssociatePublicIpAddress": false,
+            "DeleteOnTermination": true,
+            "DeviceIndex": 0,
+            "Groups": [
+                "sg-0f9d7a05602ce1d21"
+            ],
+            "SubnetId": "subnet-01c6139407b695920"
+        }
+    ],
+    "InstanceType": "c5.xlarge",
+    "Placement": {
+        "Tenancy": "host",
+        "HostResourceGroupArn": "arn:aws:resource-groups:us-east-1:165804382715:group/Linux-Server-DHRG-SS"
+    },
+    "LicenseSpecifications": [
+        {
+            "LicenseConfigurationArn": "arn:aws:license-manager:us-east-1:165804382715:license-configuration:lic-3cbd797638628129fa8d674785cc3595"
+        }
+    ]
+}
